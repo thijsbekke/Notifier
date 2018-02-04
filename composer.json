@@ -1,0 +1,25 @@
+{
+    "name": "thijsbekke/notifier",
+    "description": "Different style notifier clients",
+
+    "authors": [
+        {
+            "name": "Thijs Bekke",
+            "email": "thijsbekke@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Notifier": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests/Notifier", "tests/TestCase.php"]
+    }
+
+}
